@@ -55,7 +55,7 @@ body{
     object-fit: cover;
     overflow: hidden;
     /* border-radius: 50px; */
-    clip-path: circle(center);
+    clip-path: circle();
 }
 
 .text{
