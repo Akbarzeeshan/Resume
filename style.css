@@ -42,8 +42,8 @@ body{
     position: relative;
     width: 200px;
     height: 20px;
-    border-radius: 50px;
-    /* overflow: hidden; */
+   
+    
     
 }
 .profile .img img{
@@ -54,7 +54,8 @@ body{
     height: 700%;
     object-fit: cover;
     overflow: hidden;
-    border-radius: 50px;
+    /* border-radius: 50px; */
+    clip-path: circle(center);
 }
 
 .text{
